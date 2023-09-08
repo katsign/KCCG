@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="krb">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Events | KCCG</title>
+  </head>
+
+  <body>
+    <header id="header" class="page-header">
+      <a href="/web122/final/index.html">
+        <div class="title">
+          <img src="./assets/text-logo.svg" alt="KCCG logo" class="logo-top">
+        </div>
+      </a>
+      <nav class="navbar">
+        <div class="nav-row">
+          <div class="hamburger toggle">
+            <span></span>
+          </div>
+          <ul id="nav" class="site-nav">
+            <li><a href="/web122/final/about.html">About</a></li>
+            <li><a href="/web122/final/classes.html">Classes</a></li>
+            <li><a href="/web122/final/events.html">Events</a></li>
+            <li><a href="/web122/final/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+      <section class="hero events" id="top">
+      </section>
+    <main id="main">
+      <div class="row head">
+        <article class="card head">
+          <h2>Events at KCCG</h2>
+          <hr>
+          <p class="pull-quote">KC Clay Guild hosts many special events throughout the year.</p>
+          <p>
+            From our highly anticipated Raku Night in the fall, the Holiday Sale and open Studio Tour in the winter, and the many workshops we offer year-round, watch this space to stay informed on all of our event offerings.
+          </p>
+        </article>
+        <aside class="card">
+          <figure>
+            <img
+              src="./assets/4-ceramics.jpg"
+              alt="Pottery on display"
+              class="card__image"
+           >
+            <figcaption class="card__caption">
+              <span class="material-icons"> image</span
+              ><a href="https://unsplash.com/photos/3xpQCOOe6hM" target="_blank">Earl Wilcox</a>
+            </figcaption>
+          </figure>
+        </aside>
+      </div>
+      <div class="row">
+        <article class="card">
+          <h2>Event Calendar</h2>
+          <hr>
+          <p>Sync our full class and event schedule with your calendar app and never miss a chance to get your hands dirty.</p>
+            <div class="calendar full">
+              <ul class="weekdays">
+                <li>
+                  <abbr title="S">Sun</abbr>
+                </li>
+                <li>
+                  <abbr title="M">Mon</abbr>
+                </li>
+                <li>
+                  <abbr title="T">Tue</abbr>
+                </li>
+                <li>
+                  <abbr title="W">Wed</abbr>
+                </li>
+                <li>
+                  <abbr title="T">Thu</abbr>
+                </li>
+                <li>
+                  <abbr title="F">Fri</abbr>
+                </li>
+                <li>
+                  <abbr title="S">Sat</abbr>
+                </li>
+              </ul>
+              <ol class="day-grid">
+                <li class="month=prev">29</li>
+                <li class="month=prev">30</li>
+                <li class="month=prev">31</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5 <span class="ses" id="trigger">Class</span>
+                  <div class="modal" id="modal--pottery">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p>We offer weekly class sessions for all skill levels.</p>
+                      <hr>
+                      <p>To view our full class schedule, visit the <a href="/web122/final/classes.html">Classes</a> page.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9 <span class="event" >Event</span></li>
+                <li>10</li>
+                <li>11</li>
+                <li>12 <span class="ses">Class</span></li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16 <span class="event">Event</span></li>
+                <li>17</li>
+                <li>18</li>
+                <li>19 <span class="ses">Class</span></li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26 <span class="ses">Class</span></li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30 <span class="event">Event</span></li>
+                <li class="month-next">1</li>
+                <li class="month-next">2</li>
+              </ol>
+            </div>
+        </article>
+      </div>
+      <p class="top-btn">
+        <a href="#top"
+          ><span class="material-icons top">expand_less</span>Back to Top</a
+        >
+      </p>
+    </main>
+    <footer class="footer">
+      <div class="footer-row">
+        <div>
+          <img src="./assets/logo-light.svg" alt="KCCG logo" class="logo">
+          <span class="footer-logo-text">KCCG</span>
+        </div>
+        <div class="footer-links">
+          <ul class="quick-links">
+            <li class="small">Location</li>
+            <li class="address">200 W 74th St.</li>
+            <li class="address">KCMO, 64114</li>
+          </ul>
+          <ul class="quick-links hours">
+            <li class="small">Hours of Operation</li>
+            <li>Mon - Th:</li>
+            <li class="small">10am to 9pm</li>
+            <li>Fri - Sat:</li>
+            <li class="small">10am to 10pm</li>
+            <li>Sun:</li>
+            <li class="small">1pm to 5pm</li>
+          </ul>
+          <ul class="quick-links">
+            <li class="small">Quick Links</li>
+            <li><a href="/web122/final/about.html">About</a></li>
+            <li><a href="/web122/final/classes.html">Classes</a></li>
+            <li><a href="/web122/final/events.html">Events</a></li>
+            <li><a href="/web122/final/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="copyright">&copy; 2023 KC Clay Guild<br>KC Clay Guild is a 501(c)3 non-profit organization.</span>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+  </body>
+</html>

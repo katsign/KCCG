@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="krb">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact | KCCG</title>
+  </head>
+
+  <body>
+    <header id="header" class="page-header">
+      <a href="/web122/final/index.html">
+        <div class="title">
+          <img src="./assets/text-logo.svg" alt="KCCG logo" class="logo-top">
+        </div>
+      </a>
+      <nav class="navbar">
+        <div class="nav-row">
+          <div class="hamburger toggle">
+            <span></span>
+          </div>
+          <ul id="nav" class="site-nav">
+            <li><a href="/web122/final/about.html">About</a></li>
+            <li><a href="/web122/final/classes.html">Classes</a></li>
+            <li><a href="/web122/final/events.html">Events</a></li>
+            <li><a href="/web122/final/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+      <section class="hero contact" id="top">
+      </section>
+    <main id="main">
+      <div class="row head">
+        <article class="card head">
+          <h2>Contact the Studio</h2>
+          <hr>
+          <p class="pull-quote">We look forward to talking with prospective members. Please feel free to contact the studio with any questions.</p>
+          <form
+              method="POST"
+              action="https://webdevbasics.net/scripts/demo.php"
+              class="mt-3"
+              id="contact">
+              <label for="myFName">First name:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="myFName"
+                id="myFName"
+                required
+                placeholder="First">
+              <label for="myLName">Last name:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="myLName"
+                id="myLName"
+                required
+                placeholder="Last">
+              <label for="myEmail">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                name="myEmail"
+                id="myEmail"
+                required
+                placeholder="me@domain.com">
+              <label for="myTel">Telephone:</label>
+              <input
+                type="tel"
+                class="form-control"
+                name="myTel"
+                id="myTel"
+                maxlength="12"
+                placeholder="800-222-4444">
+              <label for="myComments">Message:</label>
+              <textarea
+                name="myComments"
+                class="form-control"
+                id="myComments"
+                rows="2"
+                cols="300"
+                required
+                placeholder="I'm looking for more info about..."></textarea>
+              <button
+                type="submit"
+                class="button"
+                id="contact-submit">
+                Send
+              </button>
+            </form>
+        </article>
+        <aside class="card">
+          <figure>
+            <img
+              src="./assets/9-process.jpg"
+              alt="Person kneading clay with hands"
+              class="card__image"
+           >
+            <figcaption class="card__caption">
+              <span class="material-icons"> image</span
+              ><a href="https://unsplash.com/photos/gtBoWrb6pO0" target="_blank">Earl Wilcox</a>
+            </figcaption>
+          </figure>
+        </aside>
+      </div>
+      <h2>Studio Information</h2>
+      <hr>
+      <div class="row head">
+        <article class="card">
+          <p class="label">Phone</p>
+          <ul class="quick-links">
+            <li class="address"><a href="tel:8163631373">816-363-1373</a></li>
+          </ul>
+        </article>
+        <article class="card">
+          <p class="label">Location</p>
+          <ul class="quick-links">
+            <li class="address">200 W 74th St.</li>
+            <li class="address">KCMO, 64114</li>
+          </ul>
+        </article>
+        <article class="card">
+          <p class="label">Hours of Operation</p>
+          <ul class="quick-links hours">
+            <li>Monday - Thursday:</li>
+            <li class="small">10am to 9pm</li>
+            <li>Friday - Saturday:</li>
+            <li class="small">10am to 10pm</li>
+            <li>Sunday:</li>
+            <li class="small">1pm to 5pm</li>
+          </ul>
+        </article>
+      </div>
+      <p class="top-btn">
+        <a href="#top"
+          ><span class="material-icons top">expand_less</span>Back to Top</a
+        >
+      </p>
+    </main>
+    <footer class="footer">
+      <div class="footer-row">
+        <div>
+          <img src="./assets/logo-light.svg" alt="KCCG logo" class="logo">
+          <span class="footer-logo-text">KCCG</span>
+        </div>
+        <div class="footer-links">
+          <ul class="quick-links">
+            <li class="small">Location</li>
+            <li class="address">200 W 74th St.</li>
+            <li class="address">KCMO, 64114</li>
+          </ul>
+          <ul class="quick-links hours">
+            <li class="small">Hours of Operation</li>
+            <li>Mon - Th:</li>
+            <li class="small">10am to 9pm</li>
+            <li>Fri - Sat:</li>
+            <li class="small">10am to 10pm</li>
+            <li>Sun:</li>
+            <li class="small">1pm to 5pm</li>
+          </ul>
+          <ul class="quick-links">
+            <li class="small">Quick Links</li>
+            <li><a href="/web122/final/about.html">About</a></li>
+            <li><a href="/web122/final/classes.html">Classes</a></li>
+            <li><a href="/web122/final/events.html">Events</a></li>
+            <li><a href="/web122/final/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="copyright">&copy; 2023 KC Clay Guild<br>KC Clay Guild is a 501(c)3 non-profit organization.</span>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+  </body>
+</html>
